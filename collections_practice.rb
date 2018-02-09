@@ -60,4 +60,5 @@ def add_s(array)
   array.each do |string|
     plurals << string + "s"
   end
+  plurals
 end
