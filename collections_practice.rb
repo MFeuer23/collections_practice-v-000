@@ -58,7 +58,11 @@ end
 def add_s(array)
   plurals = []
   array.each do |string|
-    plurals << string + "s"
+    if string != "feet"
+      plurals << string + "s"
+    else
+      plurals << string
+    end
   end
   plurals
 end
