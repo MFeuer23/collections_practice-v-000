@@ -31,7 +31,7 @@ end
 def kesha_maker(array)
   kesha_array = []
   array.each do |string|
-    kesha_says = string.split('') 
+    kesha_says = string.split('')
     kesha_says[2] = "$"
     kesha_array << kesha_says.join('')
   end
@@ -52,7 +52,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.reduce(:+) 
+  array.reduce(:+)
 end
 
 def add_s(array)
@@ -61,4 +61,3 @@ def add_s(array)
     plurals << string + "s"
   end
 end
-
